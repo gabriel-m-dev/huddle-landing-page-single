@@ -165,6 +165,12 @@ img {
         font-weight: 400;
         font-size: 1.1rem;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.432);
+        transition-duration: 300ms;
+    }
+
+    .main__cta:hover {
+        background-color: var(--Soft-Magenta);
+        color: white;
     }
 
     .footer {
@@ -175,5 +181,10 @@ img {
     .icon__img {
         width: 37px;
         height: 37px;
+        transition-duration: 300ms;
+    }
+
+    .icon__img:hover {
+        border-color: var(--Soft-Magenta);
     }
 }
